@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Movie and TV</title>
+<link href="style.css" rel="stylesheet">
+</head>
+<body onload="trending()">
+  <script type="application/javascript" src="script.js"></script>
+  <input id = "searchQuery" placeholder = "search"/>
+  <button onclick="searchByName()"> Search </button>
+  <button onclick="trending()"> Trending </button>
+  <br/>
+<label><input id="searchMovie" name="searchRB" type="radio" value="movie"  checked="checked" > Movie </label>
+<label><input name="searchRB" type="radio" value="tv"> TV </label>
+  <hr>
+  <div id="text"></div>
+</body>
+</html>
